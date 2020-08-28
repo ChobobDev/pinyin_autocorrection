@@ -90,8 +90,8 @@ class Corrector:
 if __name__ == "__main__":
     crt = Corrector(4)
     print(crt.correct("zhognguo"))
-    crt.correct("qighuadaxeu")
-    crt.correct("beijindaxue")
+    print(crt.correct("qighuadaxeu"))
+    print(crt.correct("beijindaxue"))
 
 
 
